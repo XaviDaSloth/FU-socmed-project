@@ -1,0 +1,80 @@
+/*------------------- */
+.options-div{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.option{
+  width: 15vw;
+  height: 5vh;
+  border-radius: 15px;
+  background-color: B3261E;
+  color: white;
+}
+
+.form{
+  background-color: white;
+}
+select option[value=""][selected] {
+color: gray; 
+}
+.logo-div{
+  flex: 1;
+  padding-top: 15vh;
+}
+.logo-image{
+  height: 300px;
+}
+input[type=text],input[type=password],input[type=date],input[type=email], select{
+  width: 15vw;
+  margin-bottom: 15px;
+  height: 5vh;
+  border-radius: 8px;
+  padding-left: 4px;
+}
+.form1{
+  position: relative;
+  width: 34vw;
+  min-height: 40vh;
+  background-color: 8B0101;
+  padding: 3vh;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+.submit{
+  width:30vw;
+  height: 5vh; 
+  background-color:B3261E; 
+  color:gainsboro;
+  border-radius: 8px;
+}
+.form2{
+  position: relative;
+  width: 33vw;
+  min-height: 28vh;
+  background-color: 8B0101;
+  padding: 3vh;
+  text-align: start;
+  border-radius: 15px;
+}
+.form2 div{
+  text-align: center;
+  padding-top: 2vh;
+}
+label{
+  font-size: 1rem;
+  display: block;
+  position: relative;
+  color: gainsboro;
+  width: 100%;
+  text-align: left;
+  left: 10px;
+}
+#college{
+  width: 30vw;
+}

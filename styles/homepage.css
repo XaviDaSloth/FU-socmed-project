@@ -1,0 +1,130 @@
+.flex-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+}
+.post-image{
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: wheat;
+  overflow: hidden;
+}
+.profile-picture{
+  width: 22vh;
+  height: 22vh;
+  border-radius: 50%;
+  background-color: wheat;
+  overflow: hidden;
+}
+#imagePreview {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: none; /* Initially hidden */
+}
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-follows p{
+  margin-top: 10px;
+  display: inline-block;
+  color: gainsboro;
+}
+.settings-div{
+  position: absolute;
+  display: inline;
+  top: 30px;
+  right: 30px;
+  z-index: 4;
+}
+.settings{
+  width: 5vh;
+  height: 5vh;
+  color: white;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.flex-main{
+  display: flex;
+  flex: 1;
+  padding-top: 30px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.fa-magnifying-glass{
+  color: gainsboro;
+}
+.div-searchbar{
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 30vw;
+}
+.options-div{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.option{
+  width: 15vw;
+  height: 5vh;
+  border-radius: 15px;
+  background-color: B3261E;
+  color: white;
+}
+.searchbar{
+  width: 30vw;
+  height: 5vh;
+  border-radius: 8px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.flex-main{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  padding-bottom: 5vh;
+}
+#posts{
+  display: flex;
+  flex:1;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  flex-direction: column;
+  row-gap: 3vh;
+}
+#search-results {
+  display: none;
+  position: absolute; /* Ensure the results are positioned relative to the parent div */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 25vw;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10; 
+  margin-top: 5px;
+}
+.search_user:hover{
+  background-color: C08807;
+}

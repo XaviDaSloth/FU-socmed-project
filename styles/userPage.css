@@ -1,0 +1,15 @@
+.user-data{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  height: 30vh ;
+  gap: 20px;
+}
+.user-data p{
+  display: inline
+}
+.user-data div{
+  background-color: A23434;
+  padding: 10px;
+  border-radius: 8px;
+}
